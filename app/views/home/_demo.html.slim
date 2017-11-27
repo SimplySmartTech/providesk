@@ -1,0 +1,15 @@
+.modal.fade role="dialog" tabindex="-1" id="demo" 
+  .modal-dialog role="document" 
+    .modal-content
+      .modal-header
+        button.close aria-label="Close" data-dismiss="modal" type="button" 
+          span aria-hidden="true"  &times;
+        h4.modal-title Request a Demo 
+      .modal-body
+				form action="/contact" method="post" data-remote="true"
+					input.txt name="name" placeholder=("Please input your Name") required="" type="text" value="" /
+					input.txt name="mobile" placeholder=("Please input your mobile No") required="" type="text" value="" /
+					input.txt name="email" placeholder=("Please input your Email") required="" type="text" value="" /
+					textarea.txt_3 name="message" placeholder=("Your Message") type="text" 
+					input.txt2 name="submit" type="submit" value="submit" /
+ 
